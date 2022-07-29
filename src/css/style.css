@@ -315,22 +315,14 @@ body {
 }
 
 .benefits-text {
-    /* padding-top: 10px; */
     font-weight: 700;
-    /* font-size: 36px; */
     line-height: 47px;
     text-align: center;
     color: #FCFAF6;
 }
 
-.benefits-block {
-    padding-top: 60px;
-    margin-top: 10px;
-}
-
 .benefits-block-title {
     font-weight: 700;
-    font-size: 20px;
     line-height: 25px;
     text-align: center;
     color: #FCFAF6;
@@ -338,7 +330,6 @@ body {
 
 .benefits-block-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: #767676;
