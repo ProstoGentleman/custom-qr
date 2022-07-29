@@ -1,0 +1,465 @@
+body {
+    background-image: radial-gradient(#D9D9D9 1px, #FCFAF6 1px);
+    background-size: 22px 22px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-block {
+    width: 100%;
+    min-height: 1050px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/main_backg.jpg);
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px) {
+    .main-block {
+        min-height: auto;
+    }
+}
+
+.main-block__img {
+    min-height: 845px;
+    min-width: 807px;
+}
+
+@media screen and (max-width:768px) {
+    .main-block__img {
+        min-height: auto;
+        min-width: auto;
+    }
+
+    .main-block__img img {
+        max-height: 300px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.main-block__info-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #020202;
+}
+
+.main_img_star {
+    position: relative;
+    bottom: 35px;
+    right: 18px;
+}
+
+.main-block__info-title>span {
+    text-transform: lowercase;
+}
+
+.main-block__info-sub-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #020202;
+}
+
+.main-block__info-sub-title>b {
+    padding-left: 5px;
+}
+
+.main-block-btn {
+    margin-top: 92px;
+
+}
+
+.get-started-btn {
+    background: #FCFAF6;
+    border: 1px solid #020202;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #020202;
+    padding: 18px 60px;
+    text-decoration: none;
+    outline: none;
+}
+
+.main-block__addinfo {
+    margin-top: 101px;
+}
+
+@media screen and (max-width:768px) {
+    .main-block__addinfo {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    .main-block-btn{
+        margin-top: 40px;
+    }
+}
+
+.main-block__addinfo-btn {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #020202;
+    background: #CDC8FF;
+    border: 1px solid #020202;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.main-block__info-text {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #020202;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-self: stretch;
+}
+
+.main-block__info-icon {
+    text-align: center;
+    padding-right: 5px;
+}
+
+/* ==================== */
+
+.how-it-works {
+    top: -70px;
+    position: relative;
+}
+
+.how-it-works-block {
+    background-color: #FCFAF6;
+    border: 1px solid rgba(2, 2, 2, 0.6);
+    border-radius: 37px;
+}
+
+.how-it-works-block-item {
+    padding-top: 90px;
+}
+
+.how-it-works-title {
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #8E83FF;
+}
+
+.how-it-works-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #020202;
+}
+
+.how-it-works-btn {
+    background: #020202;
+    border-radius: 6px;
+    padding: 21px 68px;
+    font-weight: 700;
+    font-size: 16.3442px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all .3s;
+    border: none;
+}
+
+.how-it-works-btn:hover {
+    opacity: 0.8;
+}
+
+.how-it-works-item-img {
+    height: 315px;
+}
+
+@media screen and (max-width:1380px) {
+    .how-it-works-item-img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .how-it-works-item-img {
+        height: 185px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .how-it-works-item-img {
+        height: auto;
+    }
+
+    .how-it-works-item-content {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
+
+.how-it-works-item-content {
+    min-height: 244px;
+}
+
+.how-it-works-item-content-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #020202;
+}
+
+.how-it-works-item-content-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #020202;
+}
+
+/* ============== */
+
+.your-brand-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    color: #020202;
+}
+
+.your-brand-title>span {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 2px #020202;
+}
+
+.your-brand-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #020202;
+    margin-top: 30px;
+}
+
+/* ================= */
+.difference {
+    margin-top: 100px;
+}
+
+.difference-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #020202;
+    text-align: center;
+}
+
+.difference-text {
+    max-width: 810px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #020202;
+    margin: 0 auto;
+}
+
+.difference-block {
+    margin-top: 65px;
+}
+
+.difference-block-item-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 47px;
+    color: #020202;
+}
+
+.difference-block-item-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #020202;
+}
+
+.difference-btn {
+    background: #FCFAF6;
+    border-radius: 6px;
+    padding: 21px 68px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3442px;
+    line-height: 100%;
+    text-align: center;
+    color: #020202;
+}
+
+/* =============== */
+
+.benefits {
+    width: 100%;
+    min-height: 1047px;
+    background: linear-gradient(0deg, #020202, #020202), #F2F1FD;
+}
+
+.benefits-title {
+    padding-top: 120px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #8E83FF;
+}
+
+.benefits-text {
+    padding-top: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FCFAF6;
+}
+
+.benefits-block {
+    padding-top: 60px;
+    margin-top: 10px;
+}
+
+.benefits-block-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FCFAF6;
+}
+
+.benefits-block-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #767676;
+}
+
+.benefits-btn {
+    background: #8E83FF;
+    border-radius: 6px;
+    padding: 21px 68px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.3442px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* ============= */
+
+.portfolio {
+    background-image: url(/src/images/Portfolio-bg.png);
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    min-height: 1050px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8E83FF;
+    padding-top: 100px;
+}
+
+.portfolio-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #020202;
+    padding-top: 10px;
+}
+
+.portfolio-sub-text {
+    max-width: 953px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #020202;
+    margin: 0px auto;
+}
+
+.portfolio-big-box {
+    padding: 40px;
+}
+
+.portfolio-big-box,
+.portfolio-mini-box {
+    background: #FAF8FB;
+    border: 1px solid rgba(2, 2, 2, 0.6);
+    border-radius: 15px;
+}
+
+.portfolio-mini-box {
+    padding: 18px;
+    background: #FFFFFF;
+}
+
+.portfolio-btn {
+    background: #FCFAF6;
+    border-radius: 6px;
+    padding: 21px 68px;
+    font-weight: 700;
+    font-size: 16.3442px;
+    line-height: 100%;
+    text-align: center;
+    color: #020202;
+}
+
+/* =============== */
+
+/* .registration {} */
